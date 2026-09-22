@@ -1351,7 +1351,7 @@ function rellenarBillete() {
 }
 function textoTelegrama() {
   const trato = normalizar(CONFIG.tratamiento).replace(/[^A-Z0-9 ]/g, '').trim() || 'AGENTE';
-  return `URGENTE STOP EXCELENTE TRABAJO ${trato} STOP ESTO SOLO ERA EL ENTRENAMIENTO STOP LA MISION DE VERDAD LE ESPERA A BORDO DEL BERLIN EXPRESS STOP DOS PLAZAS RESERVADAS A SU NOMBRE STOP`;
+  return `URGENTE. EXCELENTE TRABAJO ${trato}. ESTO SOLO ERA EL ENTRENAMIENTO. LA MISION DE VERDAD LE ESPERA A BORDO DEL BERLIN EXPRESS. DOS PLAZAS RESERVADAS A SU NOMBRE.`;
 }
 async function iniciarFinal() {
   rellenarBillete();
